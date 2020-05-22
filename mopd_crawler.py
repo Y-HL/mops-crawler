@@ -5,7 +5,7 @@ import os
 
 if not os.path.isdir('./mops'):
     os.mkdir('./mops')
-headers = {'Referer': 'https://mops.twse.com.tw/mops/web/t163sb04','User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36'}
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36'}
 payload = {
     'encodeURIComponent': 1,
     'step': 1,
